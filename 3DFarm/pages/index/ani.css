@@ -1,0 +1,610 @@
+#sky {
+    width: 500px;
+    height: 80px;
+    margin-top: -80px;
+    perspective: 420px;
+    filter: drop-shadow(0px 150px 10px rgba(0, 0, 0, 0.2));
+}
+
+  #sky div {
+    transform-style: preserve-3d;
+  }
+  #sky .bird {
+    -webkit-animation: fly 20000ms linear infinite;
+    animation: fly 20000ms linear infinite;
+  }
+
+  #sky .bird_body {
+    position: relative;
+    width: 15rpx;
+    height: 20rpx;
+    background: #70addd;
+  }
+  #sky .bird_head {
+    position: absolute;
+    top: -15rpx;
+    border-right: 8rpx solid transparent;
+    border-bottom: 15rpx solid #6b83fa;
+    border-left: 8rpx solid transparent;
+    transform-origin: 50% 100%;
+    transform: rotateX(-20deg);
+  }
+  #sky .bird_wing_left {
+    position: absolute;
+    left: -15rpx;
+    height: 15rpx;
+    border-right: 15rpx solid #a399d1;
+    border-bottom: 5rpx solid transparent;
+    transform-origin: 100% 0;
+    -webkit-animation: wingLeft 1000ms cubic-bezier(0.36, 0.1, 0.16, 1)
+      infinite alternate;
+    animation: wingLeft 1000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite
+      alternate;
+  }
+  #sky .bird_wing_left_top {
+    position: absolute;
+    left: -15rpx;
+    border-right: 15rpx solid #929ccf;
+    border-bottom: 15rpx solid transparent;
+    transform-origin: 100% 0;
+    -webkit-animation: wingLeft 1000ms
+      cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite alternate;
+    animation: wingLeft 1000ms cubic-bezier(0.545, 0.08, 0.52, 0.975)
+      infinite alternate;
+  }
+  #sky .bird_wing_right {
+    position: absolute;
+    left: 15rpx;
+    height: 15rpx;
+    border-left: 15rpx solid #8567f0;
+    border-bottom: 5rpx solid transparent;
+    transform-origin: 0 0;
+    -webkit-animation: wingRight 1000ms cubic-bezier(0.36, 0.1, 0.16, 1)
+      infinite alternate;
+    animation: wingRight 1000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite
+      alternate;
+  }
+  #sky .bird_wing_right_top {
+    position: absolute;
+    border-left: 15rpx solid #c0a9e0;
+    border-bottom: 15rpx solid transparent;
+    transform-origin: 0 0;
+    -webkit-animation: wingRight 1000ms
+    cubic-bezier(0.545, 0.08, 0.52, 0.975) infinite alternate;
+    animation: wingRight 1000ms cubic-bezier(0.545, 0.08, 0.52, 0.975)
+    infinite alternate;
+  }
+  #sky .bird_tail_left {
+    position: absolute;
+    top: 20rpx;
+    border-right: 15rpx solid transparent;
+    border-top: 20rpx solid #74a3ff;
+    transform-origin: 50% 0;
+    transform: rotateX(-20deg);
+  }
+  #sky .bird_tail_right {
+    position: absolute;
+    top: 20rpx;
+    border-left: 15rpx solid transparent;
+    border-top: 20rpx solid #a3c8ce;
+    transform-origin: 50% 0;
+    transform: rotateX(-20deg);
+  }
+
+  @-webkit-keyframes fly {
+    0% {
+      transform: rotateX(-120deg) rotateZ(0deg) rotateX(10deg);
+    }
+    100% {
+      transform: rotateX(-120deg) rotateZ(220deg) rotateX(20deg);
+    }
+  }
+
+  @keyframes fly {
+    0% {
+      transform: rotateX(-120deg) rotateZ(0deg) rotateX(10deg);
+    }
+    100% {
+      transform: rotateX(-120deg) rotateZ(220deg) rotateX(20deg);
+    }
+  }
+  @-webkit-keyframes wingLeft {
+    0% {
+      transform: rotateY(-40deg);
+    }
+    100% {
+      transform: rotateY(40deg);
+    }
+  }
+  @keyframes wingLeft {
+    0% {
+      transform: rotateY(-40deg);
+    }
+    100% {
+      transform: rotateY(40deg);
+    }
+  }
+  @-webkit-keyframes wingRight {
+    0% {
+      transform: rotateY(40deg);
+    }
+    100% {
+      transform: rotateY(-40deg);
+    }
+  }
+  @keyframes wingRight {
+    0% {
+      transform: rotateY(40deg);
+    }
+    100% {
+      transform: rotateY(-40deg);
+    }
+  }
+  @-webkit-keyframes wind {
+    0% {
+      transform: translateY(-300px);
+    }
+    100% {
+      transform: translateY(200px);
+    }
+  }
+  @keyframes wind {
+    0% {
+      transform: translateY(-300px);
+    }
+    100% {
+      transform: translateY(200px);
+    }
+  }
+
+@keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+    0%{
+        transform: scale(1);  /*开始为原始大小*/
+    }
+    25%{
+        transform: scale(1.1); /*放大1.1倍*/
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+}
+.ballon{
+    -webkit-animation-name: scaleDraw; /*关键帧名称*/
+    -webkit-animation-timing-function: ease-in-out; /*动画的速度曲线*/
+    -webkit-animation-iteration-count: infinite;  /*动画播放的次数*/
+    -webkit-animation-duration: 5s; /*动画所花费的时间*/
+}
+
+.sky {
+    z-index: 1;
+    top:80rpx;
+    left:0;
+    width: 100%;
+  height: 500rpx;
+  position: absolute;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.sky .clouds_one {
+  background: url("https://t-www.aisky.io/bkzy/static/cloud_one.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_one 50s linear infinite;
+  -moz-animation: cloud_one 50s linear infinite;
+  -o-animation: cloud_one 50s linear infinite;
+  animation: cloud_one 50s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.sky .clouds_two {
+  background: url("https://t-www.aisky.io/bkzy/static/cloud_two.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_two 75s linear infinite;
+  -moz-animation: cloud_two 75s linear infinite;
+  -o-animation: cloud_two 75s linear infinite;
+  animation: cloud_two 75s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.sky .clouds_three {
+  background: url("https://t-www.aisky.io/bkzy/static/cloud_three.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 300%;
+  -webkit-animation: cloud_three 100s linear infinite;
+  -moz-animation: cloud_three 100s linear infinite;
+  -o-animation: cloud_three 100s linear infinite;
+  animation: cloud_three 100s linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+@-webkit-keyframes cloud_one {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+@-moz-keyframes cloud_one {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+@keyframes cloud_one {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+
+@-webkit-keyframes cloud_two {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+@-moz-keyframes cloud_two {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+@keyframes cloud_two {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+
+@-webkit-keyframes cloud_three {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+@-moz-keyframes cloud_three {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+@keyframes cloud_three {
+  0% {
+	left: 0
+  }
+  100% {
+	left: -200%
+  }
+}
+
+/*施肥*/
+
+.action1 {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+    width: 91rpx;
+    height: 115rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/start_fertilization.png) no-repeat 100%;
+    background-size: cover;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: 999;
+}
+
+.action1-fadeIn {
+    -webkit-animation: 1.8s ease;
+    -moz-animation: 1.8s ease;
+    -ms-animation: 1.8s ease;
+    animation: 1.8s ease;
+    -webkit-animation-name: fertilizeFadeIn;
+    -moz-animation-name: fertilizeFadeIn;
+    -ms-animation-name: fertilizeFadeIn;
+    animation-name: fertilizeFadeIn;
+}
+
+/*施肥动画*/
+@-webkit-keyframes fertilizeFadeIn {
+    0% {
+        opacity: .8;
+        bottom: 40%;
+        right: 0;
+        -webkit-transform: rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        bottom: 46%;
+        right: 100px;
+        -webkit-transform: rotate(-40deg);
+    }
+}
+
+/* 浇水 */
+.action2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 121rpx;
+    height: 98rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/start_water.png) no-repeat 100%;
+    background-size: cover;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: 999;
+}
+
+.action2-fadeIn {
+    -webkit-animation: 1.8s ease;
+    -moz-animation: 1.8s ease;
+    -ms-animation: 1.8s ease;
+    animation: 1.8s ease;
+    -webkit-animation-name: bottleFadeIn;
+    -moz-animation-name: bottleFadeIn;
+    -ms-animation-name: bottleFadeIn;
+    animation-name: bottleFadeIn;
+}
+
+/*水瓶动画*/
+@-webkit-keyframes bottleFadeIn {
+    0% {
+        opacity: .8;
+        bottom: 40%;
+        right: 0;
+        -webkit-transform: rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        bottom: 46%;
+        right: 100px;
+        -webkit-transform: rotate(-40deg);
+    }
+}
+
+/*除虫*/
+.action3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 81rpx;
+    height: 119rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/start_deinsectization.png) no-repeat 100%;
+    background-size: cover;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: 999;
+}
+
+.action3-fadeIn {
+    -webkit-animation: 1.8s ease;
+    -moz-animation: 1.8s ease;
+    -ms-animation: 1.8s ease;
+    animation: 1.8s ease;
+    -webkit-animation-name: catchinsectFadeIn;
+    -moz-animation-name: catchinsectFadeIn;
+    -ms-animation-name: catchinsectFadeIn;
+    animation-name: catchinsectFadeIn;
+}
+
+/*捉虫动画*/
+@-webkit-keyframes catchinsectFadeIn {
+    0% {
+        opacity: .8;
+        bottom: 40%;
+        right: 0;
+        -webkit-transform: rotate(45deg);
+    }
+    100% {
+        opacity: 1;
+        bottom: 46%;
+        right: 100px;
+        -webkit-transform: rotate(-40deg);
+    }
+}
+
+/*收获*/
+.action4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 93rpx;
+    height: 106rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/start_harvest.png) no-repeat 100%;
+    background-size: cover;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: 999;
+}
+
+.action4-fadeIn {
+    -webkit-animation: 2.8s ease;
+    -moz-animation: 2.8s ease;
+    -ms-animation: 2.8s ease;
+    animation: 2.8s ease;
+    -webkit-animation-name: harvestFadeIn;
+    -moz-animation-name: harvestFadeIn;
+    -ms-animation-name: harvestFadeIn;
+    animation-name: harvestFadeIn;
+}
+
+/*收获动画*/
+@-webkit-keyframes harvestFadeIn {
+    0% {
+        opacity: .8;
+        bottom: 40%;
+        right: 0;
+        -webkit-transform: rotate(45deg);
+    }
+    25% {
+        opacity: 1;
+        bottom: 42%;
+        right: 50px;
+        -webkit-transform: rotate(-20deg);
+    }
+    50% {
+        opacity: 1;
+        bottom: 44%;
+        right: 140px;
+        -webkit-transform: rotate(-20deg);
+    }
+    75% {
+        opacity: 1;
+        bottom: 40%;
+        right: 110px;
+        -webkit-transform: rotate(-20deg);
+    }
+    100% {
+        opacity: 1;
+        bottom: 46%;
+        right: 60px;
+        -webkit-transform: rotate(-20deg);
+    }
+}
+
+.fruit {
+    position: absolute;
+    width: 57rpx;
+    height: 58rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/index2.png) no-repeat;
+    background-size: cover;
+    z-index: 88;
+}
+
+.fruit-ani {
+    -webkit-animation: fruit-fly 1.8s ease-in;
+    -moz-animation: fruit-fly 1.8s ease-in;
+    -ms-animation: fruit-fly 1.8s ease-in;
+    animation: fruit-fly 1.8s ease-in;
+}
+
+@keyframes fruit-fly {
+    0%{
+    }
+    100%{
+        bottom: calc(100vh - 200rpx);
+        right: 200rpx;
+    }
+}
+
+.yua {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 5rpx;
+    height: 200rpx;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.30));
+    animation: xhxy .7s infinite;
+}
+.yub {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    width: 5rpx;
+    height: 200rpx;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.30));
+    animation: xhxy .2s infinite;
+}
+.yuc {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5rpx;
+    height: 200rpx;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.30));
+    animation: xhxy .3s infinite;
+}
+.yud {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    width: 5rpx;
+    height: 200rpx;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.30));
+    animation: xhxy .4s infinite;
+}
+.yue {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 5rpx;
+    height: 200rpx;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.30));
+    animation: xhxy .5s infinite;
+}
+.yuf {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    width: 5rpx;
+    height: 200rpx;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.30));
+    animation: xhxy .6s infinite;
+}
+
+@keyframes xhxy {
+    0% {top:5%;}
+    100% {top:85%;}
+}
+
+.a-swing{-webkit-animation:swing 1s ease;-moz-animation:swing 1s ease;-ms-animation:swing 1s ease;animation:swing 1s ease;}
+        
+@keyframes swing{
+    20%{transform:rotate(15deg);}
+    40%{transform:rotate(-10deg);}
+    60%{transform:rotate(5deg);}
+    80%{transform:rotate(-5deg);}
+    100%{transform:rotate(0);}
+}

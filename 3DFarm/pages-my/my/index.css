@@ -1,0 +1,764 @@
+.page {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.face1 {
+  height: 139rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/index3.png)
+    no-repeat;
+    background-size: cover;
+  width: 391rpx;
+}
+
+.face2 {
+  width: 334rpx;
+  height: 116rpx;
+  margin: 9rpx 0 0 10rpx;
+}
+
+.face3 {
+  background-color: rgba(253, 197, 148, 1);
+  border-radius: 10px;
+  height: 116rpx;
+  width: 102rpx;
+}
+
+.face4 {
+  width: 102rpx;
+  height: 105rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/face.png) -1rpx
+    0rpx no-repeat;
+    background-size: cover;
+  margin-top: 11rpx;
+}
+
+.face5 {
+  width: 187rpx;
+  height: 80rpx;
+  margin-top: 25rpx;
+}
+
+.face6 {
+  width: 171rpx;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 20rpx;
+  display: block;
+}
+
+.face7 {
+  width: 187rpx;
+  height: 47rpx;
+  margin-top: 18rpx;
+}
+
+.face8 {
+  width: 90rpx;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 22rpx;
+  margin-top: 10rpx;
+  display: block;
+}
+
+.face9 {
+  width: 54rpx;
+  height: 47rpx;
+}
+
+.outer1 {
+  background-color: rgba(254, 248, 230, 1);
+  width: 100%;
+  margin: 1rpx 0 0 1rpx;
+}
+
+.chargetxt1 {
+    overflow-wrap: break-word;
+    color: rgba(137, 68, 0, 1);
+    font-size: 28rpx;
+    font-family: PingFang-SC-Heavy;
+    text-align: justifyCenter;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.chargetxt2 {
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(246, 226, 190, 1);
+  font-size: 28rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  font-weight: bold;  
+}
+
+.charge2 {
+    border-radius: 10px;
+    height: 86rpx;
+    border: 2px solid rgba(230, 215, 194, 1);
+    width: 532rpx;
+    margin: 34rpx 0 0 6rpx;    
+}
+
+.charge3{
+    width: 230rpx;
+    height: 60rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/charge6.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 60rpx;
+}
+
+.charge4{
+    width: 230rpx;
+    height: 60rpx;
+    background: url(https://t-www.aisky.io/bkzy/static/charge7.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 60rpx;
+}
+
+.box15 {
+  width: 722rpx;
+  height: 99rpx;
+  margin: 19rpx 0 0 19rpx;
+}
+
+.pic1 {
+  width: 722rpx;
+  height: 24rpx;
+}
+
+.mod1 {
+  width: 364rpx;
+  height: 38rpx;
+  margin: 37rpx 0 0 23rpx;
+}
+
+.label1 {
+  width: 22rpx;
+  height: 38rpx;
+}
+
+.txt1 {
+  width: 61rpx;
+  overflow-wrap: break-word;
+  color: rgba(29, 29, 29, 1);
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 32rpx;
+  margin-top: 4rpx;
+  display: block;
+}
+
+.Body {
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  overflow-y: auto;
+  margin: 0 0 1rpx -1rpx;
+}
+
+.mod2 {
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.main1 {
+    border: 4rpx solid;
+    border-color: rgba(167, 98, 33, 1);
+    border-radius: 20px;
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 20px;
+  z-index: 4;
+  height: calc(100vh - 108rpx);
+  width: calc(100vw - 19rpx);
+  position: relative;
+  margin: 13rpx 0 0 10rpx;
+  align-items: center;
+}
+
+.box1 {
+  height: 116rpx;
+  margin: 0rpx 0 0 35rpx;
+}
+
+.mod3 {
+  background-color: rgba(253, 197, 148, 1);
+  border-radius: 10px;
+  width: 102rpx;
+  height: 116rpx;
+}
+
+.mod4 {
+  z-index: 28;
+  height: 78rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/my11.png)
+    0rpx -1rpx no-repeat;
+    background-size: cover;
+  margin-top: 9rpx;
+  width: 209rpx;
+  position: relative;
+}
+
+.word1 {
+  width: 120rpx;
+  height: 24rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  display: block;
+  margin: 28rpx 0 0 71rpx;
+}
+
+.img1 {
+  z-index: 43;
+  position: absolute;
+  left: -16rpx;
+  top: 10rpx;
+  width: 80rpx;
+  height: 62rpx;
+}
+
+.box2 {
+  width: 635rpx;
+  height: 116rpx;
+  margin: 72rpx 0 0 50rpx;
+}
+
+.wrap1 {
+  box-shadow: 0px 1px 0px 0px rgba(88, 16, 11, 0.25);
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 5px;
+  height: 104rpx;
+  margin-top: 6rpx;
+  width: 298rpx;
+}
+
+.layer1 {
+  width: 208rpx;
+  height: 60rpx;
+  margin: 22rpx 0 0 19rpx;
+}
+
+.pic2 {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.bd1 {
+  width: 120rpx;
+  height: 54rpx;
+  margin-top: 1rpx;
+}
+
+.word2 {
+  width: 42rpx;
+  height: 20rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 22rpx;
+  display: block;
+}
+
+.info1 {
+  width: 120rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  margin-top: 16rpx;
+  display: block;
+}
+
+.wrap2 {
+  height: 116rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/my12.png)
+    no-repeat;
+    background-size: cover;
+  width: 309rpx;
+}
+
+.mod5 {
+  width: 198rpx;
+  height: 61rpx;
+  margin: 29rpx 0 0 30rpx;
+}
+
+.img2 {
+  width: 57rpx;
+  height: 60rpx;
+  margin-top: 1rpx;
+}
+
+.layer2 {
+  width: 120rpx;
+  height: 54rpx;
+}
+
+.txt2 {
+  width: 42rpx;
+  height: 20rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 22rpx;
+  display: block;
+}
+
+.word3 {
+  width: 120rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  margin-top: 16rpx;
+  display: block;
+}
+
+.box3 {
+  width: 630rpx;
+  height: 104rpx;
+  margin: 14rpx 0 0 50rpx;
+}
+
+.box4 {
+  box-shadow: 0px 1px 0px 0px rgba(88, 16, 11, 0.25);
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 5px;
+  height: 104rpx;
+  width: 298rpx;
+}
+
+.layer3 {
+  width: 209rpx;
+  height: 71rpx;
+  margin: 17rpx 0 0 18rpx;
+}
+
+.ImageText1 {
+  height: 71rpx;
+  width: 209rpx;
+}
+
+.pic3 {
+  width: 70rpx;
+  height: 71rpx;
+}
+
+.TextGroup1 {
+  height: 55rpx;
+  margin-top: 6rpx;
+  width: 120rpx;
+}
+
+.group1 {
+  width: 120rpx;
+  height: 55rpx;
+}
+
+.word4 {
+  width: 90rpx;
+  height: 20rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 22rpx;
+  display: block;
+}
+
+.info2 {
+  width: 120rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  margin-top: 17rpx;
+  display: block;
+}
+
+.box5 {
+  box-shadow: 0px 1px 0px 0px rgba(88, 16, 11, 0.25);
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 5px;
+  height: 104rpx;
+  width: 298rpx;
+}
+
+.main2 {
+  width: 201rpx;
+  height: 63rpx;
+  margin: 21rpx 0 0 21rpx;
+}
+
+.ImageText2 {
+  height: 63rpx;
+  width: 201rpx;
+}
+
+.img3 {
+  width: 63rpx;
+  height: 63rpx;
+}
+
+.TextGroup2 {
+  height: 54rpx;
+  margin-top: 3rpx;
+  width: 120rpx;
+}
+
+.section2 {
+  width: 120rpx;
+  height: 54rpx;
+}
+
+.txt3 {
+  width: 90rpx;
+  height: 20rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 22rpx;
+  display: block;
+}
+
+.info3 {
+  width: 120rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  margin-top: 16rpx;
+  display: block;
+}
+
+.box6 {
+  width: 630rpx;
+  height: 104rpx;
+  margin: 20rpx 0 0 50rpx;
+}
+
+.mod6 {
+  box-shadow: 0px 1px 0px 0px rgba(88, 16, 11, 0.25);
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 5px;
+  height: 104rpx;
+  width: 298rpx;
+}
+
+.bd2 {
+  width: 201rpx;
+  height: 61rpx;
+  margin: 22rpx 0 0 26rpx;
+}
+
+.ImageText3 {
+  height: 61rpx;
+  width: 201rpx;
+}
+
+.img6 {
+  width: 59rpx;
+  height: 61rpx;
+}
+
+.TextGroup3 {
+  height: 56rpx;
+  width: 121rpx;
+}
+
+.box7 {
+  width: 121rpx;
+  height: 56rpx;
+}
+
+.info4 {
+  width: 71rpx;
+  height: 22rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 23rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 23rpx;
+  display: block;
+}
+
+.word5 {
+  width: 120rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  display: block;
+  margin: 16rpx 0 0 1rpx;
+}
+
+.mod7 {
+  box-shadow: 0px 1px 0px 0px rgba(88, 16, 11, 0.25);
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 5px;
+  height: 104rpx;
+  width: 298rpx;
+}
+
+.box8 {
+  width: 201rpx;
+  height: 79rpx;
+  margin: 15rpx 0 0 21rpx;
+}
+
+.ImageText4 {
+  height: 79rpx;
+  width: 201rpx;
+}
+
+.img4 {
+  width: 65rpx;
+  height: 79rpx;
+}
+
+.TextGroup4 {
+  height: 55rpx;
+  margin-top: 8rpx;
+  width: 120rpx;
+}
+
+.section3 {
+  width: 120rpx;
+  height: 55rpx;
+}
+
+.word6 {
+  width: 70rpx;
+  height: 22rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 23rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 23rpx;
+  display: block;
+}
+
+.word7 {
+  width: 120rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  margin-top: 15rpx;
+  display: block;
+}
+
+.box9 {
+  width: 99rpx;
+  height: 23rpx;
+  margin: 56rpx 0 0 75rpx;
+}
+
+.txt4 {
+  width: 99rpx;
+  height: 23rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 24rpx;
+  display: block;
+}
+
+.box10 {
+  height: 94rpx;
+  margin: 32rpx 0 0 66rpx;
+}
+
+.img5 {
+  width: 98rpx;
+  height: 94rpx;
+}
+
+.pic5 {
+  width: 80rpx;
+  height: 94rpx;
+  margin-left: 40rpx;
+}
+
+.box11 {
+  width: 298rpx;
+  height: 59rpx;
+  margin: 216rpx 0 55rpx 75rpx;
+}
+
+.mod8 {
+  box-shadow: 0px 1px 0px 0px rgba(88, 16, 11, 0.25);
+  background-color: rgba(249, 228, 173, 1);
+  border-radius: 5px;
+  width: 298rpx;
+  height: 59rpx;
+}
+
+.box12 {
+  z-index: 11;
+  height: 142rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/my13.png)
+    0rpx -1rpx no-repeat;
+  background-size: cover;
+  width: 395rpx;
+}
+
+.main3 {
+  width: 187rpx;
+  height: 80rpx;
+  margin: 34rpx 0 0 157rpx;
+}
+
+.txt5 {
+  width: 171rpx;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 20rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 20rpx;
+  display: block;
+}
+
+.box13 {
+  width: 187rpx;
+  height: 47rpx;
+  margin-top: 18rpx;
+}
+
+.txt6 {
+  width: 90rpx;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 22rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 22rpx;
+  margin-top: 10rpx;
+  display: block;
+}
+
+.pic6 {
+  width: 54rpx;
+  height: 47rpx;
+}
+
+.box14 {
+  margin-top: 30rpx;
+  z-index: 46;
+  height: 214rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/my14.png) -5rpx -5rpx
+    no-repeat;
+    background-size: cover;
+  width: 680rpx;
+}
+
+.bd3 {
+  width: 47rpx;
+  height: 23rpx;
+  margin: 34rpx 0 0 50rpx;
+}
+
+.word8 {
+  width: 47rpx;
+  height: 23rpx;
+  -webkit-text-stroke: 1rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 24rpx;
+  display: block;
+}
+
+.bd4 {
+  width: 255rpx;
+  height: 94rpx;
+  margin: 32rpx 0 31rpx 41rpx;
+}
+
+.pic7 {
+  width: 98rpx;
+  height: 93rpx;
+}
+
+.pic8 {
+  width: 98rpx;
+  height: 94rpx;
+  margin-left: 30rpx;
+}

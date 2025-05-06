@@ -1,0 +1,518 @@
+.page {
+  position: relative;
+  width: 750rpx;
+  height: 100%;
+  overflow: hidden;
+}
+
+.wrap1 {
+  background-color: rgba(254, 248, 230, 1);
+  height: 100%;
+  width: 749rpx;
+}
+
+.Header {
+  width: 750rpx;
+  height: 124rpx;
+  margin-top: -1rpx;
+}
+
+.group1 {
+  width: 722rpx;
+  height: 105rpx;
+  margin: 19rpx 0 0 19rpx;
+}
+
+.pic1 {
+  width: 722rpx;
+  height: 24rpx;
+}
+
+.section1 {
+  width: 660rpx;
+  height: 44rpx;
+  margin: 37rpx 0 0 23rpx;
+}
+
+.label1 {
+  width: 22rpx;
+  height: 38rpx;
+}
+
+.info1 {
+  width: 121rpx;
+  height: 31rpx;
+  overflow-wrap: break-word;
+  color: rgba(29, 29, 29, 1);
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 32rpx;
+  display: block;
+  margin: 4rpx 0 0 251rpx;
+}
+
+.label2 {
+  width: 33rpx;
+  height: 44rpx;
+  margin-left: 233rpx;
+}
+
+.Body {
+  width: 750rpx;
+  height: 100%;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.layer1 {
+    border:4rpx solid;
+    border-radius: 15rpx;
+    border-color: #b08d77;
+  width: 95%;
+  margin: 38rpx 0 0 0rpx;
+}
+
+.layer2 {
+  width: 95%;
+  margin: 24rpx 0 0 4rpx;
+}
+
+.box1 {
+  height: 211rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/pointHis7.png)
+    no-repeat;
+    background-size: cover;
+  margin-left: 20rpx;
+  width: 642rpx;
+}
+
+.group2 {
+  width: 463rpx;
+  height: 121rpx;
+  margin: 40rpx 0 0 80rpx;
+}
+
+.mod1 {
+  width: 145rpx;
+  height: 113rpx;
+}
+
+.wrap2 {
+  width: 138rpx;
+  height: 76rpx;
+}
+
+.pic2 {
+  width: 79rpx;
+  height: 76rpx;
+}
+
+.word1 {
+  width: 54rpx;
+  height: 27rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  margin-top: 25rpx;
+  display: block;
+}
+
+.txt1 {
+  width: 135rpx;
+  -webkit-text-stroke: 2rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+  margin: 17rpx 0 0 10rpx;
+}
+
+.pic3 {
+  width: 2rpx;
+  height: 110rpx;
+  margin: 11rpx 0 0 95rpx;
+}
+
+.mod2 {
+  width: 142rpx;
+  height: 108rpx;
+  margin: 5rpx 0 0 79rpx;
+}
+
+.main1 {
+  width: 130rpx;
+  height: 69rpx;
+}
+
+.pic4 {
+  width: 64rpx;
+  height: 69rpx;
+}
+
+.word2 {
+  width: 53rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  margin-top: 21rpx;
+  display: block;
+}
+
+.word3 {
+  width: 135rpx;
+  -webkit-text-stroke: 2rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+  margin: 19rpx 0 0 7rpx;
+}
+
+.box2 {
+  width: 600rpx;
+  height: 60rpx;
+  margin: 29rpx 0 0 40rpx;
+}
+
+.block1 {
+  height: 59rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/pointHis8.png)
+    no-repeat;
+    background-size: cover;
+  width: 178rpx;
+}
+
+.word4 {
+  width: 51rpx;
+  height: 24rpx;
+  -webkit-text-stroke: 2rpx rgba(119, 60, 26, 1);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  display: block;
+  margin: 19rpx 0 0 64rpx;
+}
+
+.block2 {
+  height: 59rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/pointHis9.png)
+    no-repeat;
+    background-size: cover;
+  width: 178rpx;
+}
+
+.word5 {
+  width: 51rpx;
+  height: 24rpx;
+  -webkit-text-stroke: 2rpx rgba(119, 60, 26, 0.7);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  display: block;
+  margin: 18rpx 0 0 64rpx;
+}
+
+.block3 {
+  background-color: rgba(255, 238, 200, 1);
+  border-radius: 3px;
+  height: 54rpx;
+  border: 2px rgba(119, 60, 26, 0.5);
+  margin-top: 4rpx;
+  width: 174rpx;
+}
+
+.info2 {
+  width: 52rpx;
+  height: 24rpx;
+  -webkit-text-stroke: 2px rgba(119, 60, 26, 0.7);
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25rpx;
+  
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 25rpx;
+  display: block;
+  margin: 15rpx 0 0 61rpx;
+}
+
+.box3 {
+  width: 599rpx;
+  height: 71rpx;
+  margin: 58rpx 0 0 32rpx;
+}
+
+.img1 {
+  width: 63rpx;
+  height: 63rpx;
+  margin-top: 8rpx;
+}
+
+.bd1 {
+  width: 402rpx;
+  height: 69rpx;
+  margin-left: 23rpx;
+}
+
+.word6 {
+  width: 285rpx;
+  height: 26rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+}
+
+.txt2 {
+  width: 402rpx;
+  height: 23rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+}
+
+.word7 {
+  width: 66rpx;
+  overflow-wrap: break-word;
+  color: rgba(248, 100, 1, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+  margin: 2rpx 0 0 45rpx;
+}
+
+.pic5 {
+  width: 688rpx;
+  height: 2rpx;
+  margin-top: 26rpx;
+}
+
+.box4 {
+  width: 599rpx;
+  height: 70rpx;
+  margin: 31rpx 0 0 32rpx;
+}
+
+.pic6 {
+  width: 63rpx;
+  height: 63rpx;
+}
+
+.outer1 {
+  width: 402rpx;
+  height: 69rpx;
+  margin: 1rpx 0 0 23rpx;
+}
+
+.word8 {
+  width: 285rpx;
+  height: 26rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+}
+
+.word9 {
+  width: 402rpx;
+  height: 23rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+}
+
+.word10 {
+  width: 66rpx;
+  overflow-wrap: break-word;
+  color: rgba(23, 213, 206, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+  margin: 3rpx 0 0 45rpx;
+}
+
+.img2 {
+  width: 688rpx;
+  height: 2rpx;
+  margin-top: 34rpx;
+}
+
+.box5 {
+  width: 599rpx;
+  height: 69rpx;
+  margin: 33rpx 0 0 32rpx;
+}
+
+.img3 {
+  width: 63rpx;
+  height: 63rpx;
+  margin-top: 5rpx;
+}
+
+.layer3 {
+  width: 402rpx;
+  height: 69rpx;
+  margin-left: 23rpx;
+}
+
+.word11 {
+  width: 285rpx;
+  height: 26rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+}
+
+.info3 {
+  width: 402rpx;
+  height: 23rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+}
+
+.info4 {
+  width: 66rpx;
+  overflow-wrap: break-word;
+  color: rgba(248, 100, 1, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+  margin: 2rpx 0 0 45rpx;
+}
+
+.pic7 {
+  width: 688rpx;
+  height: 2rpx;
+  margin-top: 32rpx;
+}
+
+.box6 {
+  width: 599rpx;
+  height: 69rpx;
+  margin: 34rpx 0 0 32rpx;
+}
+
+.pic8 {
+  width: 63rpx;
+  height: 63rpx;
+  margin-top: 3rpx;
+}
+
+.group3 {
+  width: 402rpx;
+  height: 69rpx;
+  margin-left: 23rpx;
+}
+
+.info5 {
+  width: 285rpx;
+  height: 26rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+}
+
+.info6 {
+  width: 402rpx;
+  height: 23rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 24rpx;
+  font-family: PingFang-SC-Medium;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 24rpx;
+  margin-top: 20rpx;
+  display: block;
+}
+
+.word12 {
+  width: 66rpx;
+  overflow-wrap: break-word;
+  color: rgba(248, 100, 1, 1);
+  font-size: 28rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 28rpx;
+  display: block;
+  margin: 2rpx 0 0 45rpx;
+}
+
+.pic9 {
+  width: 688rpx;
+  height: 2rpx;
+  margin-top: 28rpx;
+}

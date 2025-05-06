@@ -1,0 +1,128 @@
+.page {
+  position: relative;
+  width: 750rpx;
+  height: 100vh;
+}
+
+.layer1 {
+  background-color: rgba(245, 229, 173, 1);
+  width: 749rpx;
+  margin: 1rpx 0 0 1rpx;
+  min-height: 100%;
+}
+
+.wrap1 {
+    width: 749rpx;
+    margin-top: 30rpx;
+    align-items: center;
+}
+
+.group1 {
+  background: url(https://t-www.aisky.io/bkzy/static/ad/bg.png)
+   no-repeat;
+   background-size: contain;
+  width: 707rpx;
+}
+
+.outer1 {
+  height: 238rpx;
+  background: url(https://t-www.aisky.io/bkzy/static/ad/box.png)
+  no-repeat;
+  background-size: cover;
+  width: 662rpx;
+  margin: 861rpx 0 0 13rpx;
+}
+
+.block1 {
+  width: 595rpx;
+  height: 164rpx;
+  margin: 34rpx 0 0 32rpx;
+}
+
+.section1 {
+  width: 396rpx;
+  height: 164rpx;
+}
+
+.pic1 {
+  width: 381rpx;
+  height: 49rpx;
+}
+
+.bd1 {
+  width: 312rpx;
+  height: 33rpx;
+  overflow-wrap: break-word;
+  font-size: 0;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 34rpx;
+  margin: 25rpx 0 0 4rpx;
+}
+
+.txt1 {
+  width: 312rpx;
+  height: 33rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 34rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 34rpx;
+}
+
+.info1 {
+  width: 312rpx;
+  height: 33rpx;
+  overflow-wrap: break-word;
+  color: rgba(228, 0, 0, 1);
+  font-size: 34rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 34rpx;
+}
+
+.word1 {
+  width: 392rpx;
+  height: 31rpx;
+  overflow-wrap: break-word;
+  color: rgba(137, 68, 0, 1);
+  font-size: 32rpx;
+  font-family: PingFang-SC-Heavy;
+  text-align: justifyCenter;
+  white-space: nowrap;
+  line-height: 32rpx;
+  display: block;
+  margin: 26rpx 0 0 4rpx;
+}
+
+.pic2 {
+  width: 144rpx;
+  height: 134rpx;
+  margin-top: 24rpx;
+}
+
+.group2 {
+  margin-top: 40rpx;
+  width: 749rpx;
+  height: 153rpx;
+}
+
+.section2 {
+  width: 595rpx;
+  height: 75rpx;
+  margin: 0rpx 0 0 81rpx;
+}
+
+.Button1 {
+  width: 284rpx;
+  height: 75rpx;
+}
+
+.Button2 {
+  width: 284rpx;
+  height: 75rpx;
+}
